@@ -5,8 +5,8 @@ class App extends Component{
    render(){
       return(
          <div>
-            <ButtonComponent text="no" />
-            <ButtonComponent text="yes" />
+            <ButtonComponent text="no" color="primary" />
+            <ButtonComponent text="yes" color="secondary"/>
          </div>
       );
    }

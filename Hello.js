@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 
 const ButtonComponent = (props) => {
     const handleClick = () => {
@@ -6,9 +7,9 @@ const ButtonComponent = (props) => {
     };
 
     return (
-        <button onClick={handleClick}>
+        <Button onClick={handleClick} color={props.color} variant="contained">
             {props.text}
-        </button>
+        </Button>
     )
 }
 
