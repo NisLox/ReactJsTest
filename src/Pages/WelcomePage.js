@@ -16,7 +16,7 @@ const styles = theme => ({
   },
 });
 
-function CenteredGrid(props) {
+function WelcomePage(props) {
   const { classes } = props;
 
   return (
@@ -42,8 +42,8 @@ function CenteredGrid(props) {
   );
 }
 
-CenteredGrid.propTypes = {
+WelcomePage.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(CenteredGrid);
+export default withStyles(styles)(WelcomePage);
