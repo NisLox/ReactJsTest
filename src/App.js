@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CenteredGrid from './GridComponent'
+import CenteredGrid from './Pages/WelcomePage'
 
 
 class App extends Component{

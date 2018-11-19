@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import ButtonComponent from './Hello'
-import TextFieldComponent from './TextField'
+import ButtonComponent from '../Components/ButtonComponent'
+import TextFieldComponent from '../Components/TextFieldComponent'
 import Grid from '@material-ui/core/Grid';
 
 const styles = theme => ({
@@ -35,7 +35,7 @@ function CenteredGrid(props) {
                <Grid item xs={2}>
                   <ButtonComponent text="Add User" color="secondary"/>
                </Grid>
-               <Grid item xs ={8}/>
+               <Grid item xs ={6}/>
 
       </Grid>
     </div>
