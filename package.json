@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/NisLox/ReactJsTest#readme",
   "dependencies": {
+    "@material-ui/core": "^3.5.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "react": "^16.6.3",

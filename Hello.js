@@ -1,11 +1,15 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 
 function hi() {
         return (
-            <button>
+            <Button variant="contained" color="primary" onClick={hiOnClick}>
                 hello
-            </button>
+            </Button>
         )
-    
+}
+
+function hiOnClick(){
+    console.log("hi");
 }
 export default hi;
