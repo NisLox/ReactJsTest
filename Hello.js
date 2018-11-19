@@ -1,15 +1,16 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import PropTypes from 'prop-types';
 
-function hi() {
-        return (
-            <Button variant="contained" color="primary" onClick={hiOnClick}>
-                hello
-            </Button>
-        )
+const ButtonComponent = (props) => {
+    const handleClick = () => {
+        console.log(props.text)
+    };
+
+    return (
+        <button onClick={handleClick}>
+            {props.text}
+        </button>
+    )
 }
 
-function hiOnClick(){
-    console.log("hi");
-}
-export default hi;
+export default ButtonComponent;

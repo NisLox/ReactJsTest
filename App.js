@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import Hello from './Hello';
+import ButtonComponent from './Hello'
 
 class App extends Component{
    render(){
       return(
-         <Hello />
+         <div>
+            <ButtonComponent text="no" />
+            <ButtonComponent text="yes" />
+         </div>
       );
    }
-}
+} 
 export default App;
