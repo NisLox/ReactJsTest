@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import ButtonComponent from './Hello'
+import CenteredGrid from './GridComponent'
+
 
 class App extends Component{
    render(){
       return(
          <div>
-            <ButtonComponent text="no" color="primary" />
-            <ButtonComponent text="yes" color="secondary"/>
+            <CenteredGrid />
          </div>
       );
    }
