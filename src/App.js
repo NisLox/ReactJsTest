@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import CenteredGrid from './Pages/WelcomePage'
+import WelcomePage from './Pages/WelcomePage'
 
 
 class App extends Component{
    render(){
       return(
          <div>
-            <CenteredGrid />
+            <WelcomePage />
          </div>
       );
    }
